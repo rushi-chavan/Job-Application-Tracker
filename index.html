@@ -1,0 +1,18 @@
+<html>
+  <body>
+    <h2>Track your job applications: Settings</h2>
+    <!-- <form action="javascript:;" onsubmit="myFunction(this)" method="post"> -->
+    <form id="githubForm" novalidate="false">
+      <label for="projectName">Github token</label>
+      <input type="text" id="token" name="token" placeholder="" /><br /><br />
+      <label for="projectNumber">Project number</label>
+      <input type="text" id="projectNumber" name="projectNumber" placeholder="" /><br /><br />
+      <label for="projectName">Project name</label>
+      <input type="text" id="projectName" name="project" placeholder="submit to find" disabled="true" /><br /><br />
+      <label for="projectId">Project ID</label>
+      <input type="text" id="projectId" name="projectId" placeholder="submit to find" disabled="true" /><br /><br />
+      <input type="submit" value="Fetch Project ID" />
+    </form>
+    <script src="popup.js"></script>
+  </body>
+</html>
