@@ -80,10 +80,10 @@ $ git clone https://github.com/rushi-chavan/job-application-tracker
 - In Chrome browser, enable the developer mode in [Chrome Extensions](chrome://extensions/)
 
 - Use Load unpacked and navigate to the project root folder and import the extension.
-  <img src="./.github/screenshot-1.png" alt="Job Tracker" />
+  <img src="./.github/Screenshot-1.png" alt="Job Tracker" />
 
 - Once extension loaded, fetch project name and ID by providing GitHUb token and project number. (Project name and Project ID needs to auto filled when to click 'Fetch project ID' to complete the setup)
-  <img src="./.github/screenshot-2.png" alt="Job Tracker" />
+  <img src="./.github/Screenshot-2.png" alt="Job Tracker" />
 
 - If project ID is fetched successfully, you can start using the extension by 'selecting Job title on any website -> right click -> save this job' and it will reflect in your project.
 
